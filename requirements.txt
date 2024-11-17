@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+mysql-connector-python
+pandas
+python-dotenv
+langchain-openai
+langchain-community
+chromadb
+pdfplumber
