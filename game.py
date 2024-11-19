@@ -10,7 +10,8 @@ from langchain.chains import create_history_aware_retriever, create_retrieval_ch
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.chat_models import ChatOllama
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories import ChatMessageHistory
 from config import answer_examples , db_config
